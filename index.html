@@ -34,8 +34,17 @@
                 </section>
                 <section>
                     <h2>Marias Form</h2>
+                    <fieldset>
+                        <legend>Who are you?</legend>
+                        <label><input id="CertifiedCatLover" type="radio" name="love-hate" value="CertifiedCatLover">Certified cat lover</label> 
+                        <label><input id="CertifiedCatHater" type="radio" name="love-hate" value="CertifiedCatHater">Certified cat hater</label> 
+                    </fieldset>
+                    <fieldset>
+                        <legend>How well do you know Maria?</legend>
+                        <input type="checkbox" id="PrettyGood"> Pretty good!
+                    </fieldset>
                     <form action="https://docs.google.com/forms/d/e/1FAIpQLSccQEQEbyIHfakgzAopygtjJIQ0MLLLGS_FgeExnGKMPQgvSA/formResponse" method="post"> <!--Тут надо понять шо происходит-->
-                        <input type="text" name="entry.1011421893" placeholder="How would you call Maria differently?">
+                        <input type="text" name="entry.1011421893" placeholder="How would you call Maria differently?" required>
                         <button type="submit">Send</button>
                     </form>
                 </section>
