@@ -1,4 +1,9 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Marias Club</title>
+    </head>
     <body>
         <main>
             <h1>Maria's Club</h1>
@@ -33,21 +38,27 @@
                     </figure>
                 </section>
                 <section>
-                    <h2>Marias Form</h2>
+                    <h2>Marias Fanclub Form</h2>
                     <fieldset>
                         <legend>Who are you?</legend>
-                        <label><input id="CertifiedCatLover" type="radio" name="love-hate" value="CertifiedCatLover">Certified cat lover</label> 
+                        <label><input checked id="CertifiedCatLover" type="radio" name="love-hate" value="CertifiedCatLover">Certified cat lover</label> 
                         <label><input id="CertifiedCatHater" type="radio" name="love-hate" value="CertifiedCatHater">Certified cat hater</label> 
                     </fieldset>
                     <fieldset>
-                        <legend>How well do you know Maria?</legend>
-                        <input type="checkbox" id="PrettyGood"> Pretty good!
+                        <legend>Where did you meet Maria?</legend>
+                        <input checked type="checkbox" id="bathroom">
+                        <label for="bathroom" name="wherefound">In the bathroom</label>
+                        <input type="checkbox" id="kitchen">
+                        <label for="kitchen" name="wherefound">In the kitchen</label>
+                        <input type="checkbox" id="room">
+                        <label for="room" name="wherefound">In the room</label>
                     </fieldset>
                     <form action="https://docs.google.com/forms/d/e/1FAIpQLSccQEQEbyIHfakgzAopygtjJIQ0MLLLGS_FgeExnGKMPQgvSA/formResponse" method="post"> <!--Тут надо понять шо происходит-->
-                        <input type="text" name="entry.1011421893" placeholder="How would you call Maria differently?" required>
+                        <input type="text" name="entry.1011421893" placeholder="Maria aka?" required>
                         <button type="submit">Send</button>
                     </form>
                 </section>
         </main>
+        <footer> <p> No Copyright - <a href="https://en.wikipedia.org/wiki/Bodhisattva">ChillGG</a></p></footer>
     </body>
 </html>
